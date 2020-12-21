@@ -1,0 +1,28 @@
+$font-family: "Poppins", sans-serif;
+
+// Typography scale
+$fs-base: 16;
+
+$_fs-9: 9 / $fs-base + rem;
+$_fs-12: 12 / $fs-base + rem;
+$_fs-14: 14 / $fs-base + rem;
+$_fs-16: 16 / $fs-base + rem;
+$_fs-19: 19 / $fs-base + rem;
+$_fs-24: 24 / $fs-base + rem;
+$_fs-30: 30 / $fs-base + rem;
+$_fs-36: 36 / $fs-base + rem;
+$_fs-60: 60 / $fs-base + rem;
+
+// Typography applications
+$fs-menu: $_fs-12;
+$fs-btn: $_fs-14;
+$fs-footer: $_fs-14;
+$fs-body: $_fs-14;
+$fs-lead: $_fs-14;
+$fs-subtitle: $_fs-16;
+$fs-feature-title: $_fs-19;
+$fs-title-s: $_fs-24;
+$fs-title-m: $_fs-36;
+$fs-title-l: $_fs-60;
+
+

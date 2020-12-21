@@ -1,0 +1,66 @@
+@use "../settings/variables";
+
+.a-btn {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 0rem;
+  cursor: pointer;
+  font-size: variables.$fs-btn;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s;
+
+  &--primary {
+    background: variables.$background-lighter-color;
+
+    &:hover,
+    &:focus {
+      background: variables.$primary-color;
+      color: variables.$text-light-color;
+      border: solid 1px variables.$text-light-color;
+    }
+  }
+
+  &--secundary {
+    background: variables.$text-light-color;
+
+    &:hover,
+    &:focus {
+      background: variables.$gradient;
+      color: variables.$text-light-color;
+    }
+  }
+}
+
+.a-gradient-btn{
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 0rem;
+  cursor: pointer;
+  font-size: variables.$fs-btn;
+  font-weight: 500;
+  color: variables.$text-light-color;
+  background: variables.$gradient;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s;
+
+  &:hover,
+  &:focus {
+    color: variables.$primary-color;
+    background: variables.$text-light-color;
+    border: 1px solid variables.$primary-color;
+  }
+
+  &--tag{
+    text-transform: none;
+    padding: 0.6rem 1rem;
+  }
+}

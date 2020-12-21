@@ -1,0 +1,27 @@
+@use "../settings/variables";
+
+.m-footer-input {
+  &__input {
+    padding: 0.6rem 2rem;
+    margin-right: 0.8rem;
+    border-radius: 2rem;
+    border: none;
+  }
+
+  &__button {
+    background: variables.$gradient;
+    border: none;
+    text-transform: uppercase;
+    color: variables.$text-light-color;
+    padding: 0.6rem 2rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    transition: all 0.3s;
+    cursor: pointer;
+
+    &:hover{
+        background: variables.$primary-color;
+
+    }
+  }
+}

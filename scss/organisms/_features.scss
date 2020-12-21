@@ -1,0 +1,13 @@
+@use "../settings/variables";
+
+.g-features {
+  padding: 1.5rem;
+  margin: 2rem;
+  color: variables.$text-light-color;
+
+  &__grid {
+    column-width: 19.2rem;
+    padding: 1rem 5rem;
+    gap: 1rem;
+  }
+}

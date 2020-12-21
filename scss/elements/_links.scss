@@ -1,0 +1,13 @@
+@use "../settings/variables";
+
+a {
+  color: variables.$text-color;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ;
+
+  &:hover,
+  &:focus {
+    color: variables.$primary-color;
+  }
+}

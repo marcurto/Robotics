@@ -1,0 +1,15 @@
+@use "../settings/variables";
+
+.a-lead {
+  font-size: variables.$fs-lead;
+  line-height: 1.65;
+  text-transform: uppercase;
+  color: variables.$text-light-color;
+}
+
+.a-title {
+  font-size: variables.$fs-title-l;
+  color: variables.$text-light-color;
+  line-height: 1.2em;
+  margin-bottom: auto;
+}

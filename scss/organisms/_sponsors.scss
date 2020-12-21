@@ -1,0 +1,20 @@
+.g-sponsors {
+    column-width: 7rem;
+    gap: 3rem;
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &__item{
+        padding: 1em;
+        filter: grayscale(100%);
+        transition: all 0.3s;
+        cursor: pointer;
+
+        &:hover,
+        &:focus{
+            filter: grayscale(0%);
+        }
+    }
+}

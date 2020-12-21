@@ -1,0 +1,39 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.g-header {
+  position: fixed;
+  z-index: variables.$z-menu;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  
+  &__brand {
+    display: block;
+    max-height: 2.3rem;
+  }
+  
+  &__nav {
+    @include mixins.justify;
+    padding: variables.$spacing;
+  }
+
+  &__link {
+    color: variables.$text-light-color;
+    font-size: variables.$fs-menu;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-left: 1rem;
+
+    &--upp {
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      color: variables.$text-color;
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@use "../settings/variables";
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: variables.$fs-title-l;
+}
+
+h2 {
+  font-size: variables.$fs-title-m;
+  font-weight: 600;
+  margin-bottom: auto;
+}
+
+h3 {
+  font-size: variables.$fs-title-s;
+  font-weight: 600;
+}
+
+h4{
+  font-size: variables.$fs-subtitle;
+  font-weight: 300;
+}
+
+p{
+  color: variables.$text-muted-color;
+  margin-bottom: 1rem;
+}

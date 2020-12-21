@@ -1,0 +1,20 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+
+.g-products {
+  border-bottom: 1px solid variables.$boxshadow;
+  background: variables.$text-light-color;
+  
+
+  &__grid {
+    column-width: 13rem;
+    gap: 4.87rem;
+    
+  }
+
+  &__item {
+    margin-bottom: 1.87rem;
+    break-inside: avoid;
+  }
+}

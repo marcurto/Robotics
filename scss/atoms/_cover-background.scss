@@ -1,0 +1,18 @@
+@use "../settings/variables";
+
+.a-cover-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  &--features {
+    background-image: url("../../img/features/feature-bg.jpg");
+  }
+
+  &--footer {
+    background-image: url("../../img/footer/footer-bg.jpg");
+  }
+
+}

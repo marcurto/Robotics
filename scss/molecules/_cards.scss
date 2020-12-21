@@ -1,0 +1,45 @@
+@use "../settings/variables";
+
+.m-card {
+  padding: 1rem;
+  background: variables.$background-lighter-color;
+  box-shadow: variables.$boxshadow;
+  text-align: center;
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  &__title {
+    text-transform: capitalize;
+  }
+
+  &__meta {
+    color: variables.$text-muted-color;
+    font-weight: 300;
+  }
+}
+
+.m-features-card{
+    break-inside: avoid;
+    background: variables.$background-lighter-color;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    margin-bottom: 1.5rem;
+
+    &__title {
+      text-transform: capitalize;
+      font-size: variables.$fs-feature-title;
+      margin: 0;
+    }
+  
+    &__meta {
+      color: variables.$text-muted-color;
+      font-weight: 300;
+      margin: 1rem 0 0 0;
+    }
+}

@@ -1,0 +1,23 @@
+
+/* Colors */
+$_soft-prurple: #8a90ff;
+$_black: #000;
+$_white: #fff;
+$_grey: #777;
+$_bdc: #eee;
+$_alabaster: #f9f9ff;
+$_iconbg: #111;
+
+
+$primary-color: $_soft-prurple;
+
+$background-light-color: $_bdc;
+$background-lighter-color: $_alabaster;
+
+$text-color: $_black;
+$text-light-color: $_white;
+$text-muted-color: $_grey;
+$text-icon: $_iconbg;
+
+$boxshadow: 0px 10px 30px 0pc rgba(212, 150, 255, 0.2);
+$gradient: linear-gradient(0deg, #828fff 0%, #d496ff 100%);

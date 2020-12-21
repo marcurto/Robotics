@@ -1,0 +1,15 @@
+@use "../settings/variables";
+
+.g-blog{
+    column-width: 35rem;
+    gap: 0rem;
+    justify-content: center;
+
+    &__article{
+       padding: 0rem 4rem; 
+
+       h3{
+           font-size: variables.$fs-feature-title;
+       }
+    }
+}

@@ -1,0 +1,38 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.g-info {
+  @include mixins.justify;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  &:nth-child(2){
+    padding-left: 8rem;
+  }
+  
+  &__image{
+    max-width: 40rem;
+    margin: 1em 0;
+  }
+
+  &__meta{
+    padding-right: 2rem;
+    max-width: 33rem;
+    text-align: justify;
+  }
+
+  &__title{
+    line-height: 1.2;
+
+  }
+
+  &__span{
+    font-size: variables.$fs-menu;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: variables.$primary-color;
+  }
+}

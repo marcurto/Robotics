@@ -1,0 +1,21 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.g-footer {
+  color: variables.$text-light-color;
+  p{
+    color: variables.$text-light-color;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    color: variables.$text-light-color;
+  }
+  &__legal {
+    font-weight: 200;
+    span{
+      color: variables.$primary-color;
+    }
+  }
+}

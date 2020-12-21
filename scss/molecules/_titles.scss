@@ -1,0 +1,16 @@
+@use "../settings/variables";
+
+.m-titles {
+  text-align: center;
+  padding-bottom: 3em;
+
+  &__subheader {
+    color: variables.$text-muted-color;
+    font-weight: 300;
+
+    &--dark{
+      color: variables.$text-light-color;
+    }
+  }
+
+}
